@@ -1,0 +1,16 @@
+test_acc 2
+password 0 4 pass
+sid 0 36 2dd1ce56-674a-a276-bdce-38fe4138ecca
+test_mbox 4
+r_2c0f28ef-4d57-b968-dd5a-e7683bcc0dbe 0 101 test@localhost;test@localhost;Hey;Tue May  9 21:40:25 202;0;test@localhost;23;Hey Friend how are you!
+received_ids 0 38 r_2c0f28ef-4d57-b968-dd5a-e7683bcc0dbe
+sent_ids 56 0 
+s_444277ef-c43d-2eee-3c6a-767102cd2600 0 97 sumig@seas.upenn.edu;leonjh@seas.upenn.edu;Hello;Mon May  8 18:21:22 202;0;test@localhost;5;Hello
+test_files 7
+root:content 0 20 ["trash", "recents"]
+trash:content 0 2 []
+trash:name 0 5 Trash
+recents:content 0 2 []
+recents:name 0 7 Recents
+trash:metadata 0 2 {}
+recents:metadata 0 2 {}

@@ -1,0 +1,33 @@
+127.0.0.1:8001
+127.0.0.1:8004
+OUT_OF_BOUNDS
+PRINTING STATUSES
+127.0.0.1:8001 alive
+127.0.0.1:8002 alive
+127.0.0.1:8003 alive
+{
+    "1": true,
+    "2": true,
+    "3": true
+}
+This is the kv_json
+null
+{
+    "1": true,
+    "2": true
+}
+[6] New connection
+[7] New connection
+[7] Incoming Request: INFO
+
+doing write
+after write
+[8] New connection
+[9] New connection
+[10] New connection
+innnnn
+[6] Server shutdown
+[7] Server shutdown
+[8] Server shutdown
+[9] Server shutdown
+[10] Server shutdown

@@ -1,0 +1,5 @@
+/home/cis5050/git/T07/src/helloworld/cmake/build/CMakeFiles/hw_grpc_proto.dir
+/home/cis5050/git/T07/src/helloworld/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/cis5050/git/T07/src/helloworld/cmake/build/CMakeFiles/greeter_server.dir
+/home/cis5050/git/T07/src/helloworld/cmake/build/CMakeFiles/greeter_client.dir
+/home/cis5050/git/T07/src/helloworld/cmake/build/CMakeFiles/edit_cache.dir

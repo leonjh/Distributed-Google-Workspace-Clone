@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+f0d29402f6d61f4b401007a0d1abc6cd masterserver.pb.cc
+9b3b00160695c972a49ec561d43dca8c storageserver.pb.cc

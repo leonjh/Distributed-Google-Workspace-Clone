@@ -1,0 +1,11 @@
+test_files 5
+recents:name 0 7 Recents
+recents:content 0 2 []
+trash:name 0 5 Trash
+trash:content 0 2 []
+root:content 0 20 ["trash", "recents"]
+test_mbox 2
+sent_ids 0 0 
+received_ids 0 0 
+test_acc 1
+password 0 4 pass

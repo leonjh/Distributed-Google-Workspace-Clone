@@ -1,0 +1,81 @@
+syntax = "proto3";
+
+package backend;
+
+service MasterServer {
+  rpc GetTabletsForUser (GetTabletsUserRequest) returns (GetTabletsUserResponse) {} 
+
+  rpc GetTabletsForServer (GetTabletsServerRequest) returns (MasterEmpty) {} 
+
+  rpc GetKVStoreState (MasterEmpty) returns (MasterGetKVStoreStateResponse) {}
+
+  rpc KillStorageServer (KillStorageServerRequest) returns (MasterEmpty) {}
+
+  rpc ReviveStorageServer (KillStorageServerRequest) returns (MasterEmpty) {}
+
+  rpc IsInitialStorageServerStartup (IsInitialStorageServerStartupRequest) returns (IsInitialStorageServerStartupResponse) {}
+  
+  rpc GetStorageServerStatuses (GetStorageServerStatusesRequest) returns (GetStorageServerStatusesResponse) {}
+}
+
+message GetTabletsUserRequest {
+  string key = 1;
+}
+
+message GetTabletsServerRequest {
+  string address = 1;
+  optional string primary_down = 2;
+  optional string primary_up = 3;
+}
+
+message GetTabletsUserResponse {
+  message TabletGroup {
+    message ServerInfo {
+      string address = 1;
+    }
+    string begin = 1;
+    string end = 2;
+    repeated ServerInfo servers = 3;
+  }
+
+  repeated TabletGroup tablets = 1;
+}
+
+message MasterEmpty {
+}
+
+message MasterGetKVStoreStateResponse {
+  message Row {
+    message Column {
+      string name = 1;
+      bytes data = 2;
+    }
+    string name = 1;
+    repeated Column columns = 2;
+  }
+  repeated Row rows = 1;
+}
+
+message KillStorageServerRequest {
+  string address = 1;
+}
+
+message IsInitialStorageServerStartupRequest {
+  string address = 1;
+}
+
+message IsInitialStorageServerStartupResponse {
+  bool is_initial = 1;
+}
+
+message GetStorageServerStatusesRequest {
+
+}
+
+message GetStorageServerStatusesResponse {
+  message ServerStatus {
+    string address = 1;
+    bool is_alive = 2;
+  }
+  repeated ServerStatus statuses = 1;
+}

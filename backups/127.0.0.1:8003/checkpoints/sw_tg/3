@@ -1,0 +1,15 @@
+test_files 7
+recents:metadata 0 2 {}
+trash:metadata 0 2 {}
+recents:name 0 7 Recents
+recents:content 0 2 []
+trash:name 0 5 Trash
+trash:content 0 2 []
+root:content 0 20 ["trash", "recents"]
+test_mbox 3
+s_444277ef-c43d-2eee-3c6a-767102cd2600 0 97 sumig@seas.upenn.edu;leonjh@seas.upenn.edu;Hello;Mon May  8 18:21:22 202;0;test@localhost;5;Hello
+sent_ids 0 0 
+received_ids 0 0 
+test_acc 2
+sid 0 36 769c6c90-535c-ffe0-d27b-fd70ec2b6a39
+password 0 4 pass

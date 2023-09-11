@@ -1,0 +1,12 @@
+/home/cis5050/git/T07/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/edit_cache.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/master_server_test.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/ms_grpc_proto.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/master_server.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/main_server.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/smtp.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/ss_grpc_proto.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/storage_server.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/storage_server_test.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/storage_server_test_automatic.dir
+/home/cis5050/git/T07/cmake/build/CMakeFiles/FrontendLoadBalancer.dir

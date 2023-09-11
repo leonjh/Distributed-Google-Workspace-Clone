@@ -1,0 +1,1 @@
+/usr/bin/c++ -lpthread -g CMakeFiles/FrontendLoadBalancer.dir/src/frontend/FrontendLoadBalancer.cpp.o -o ../../bin/FrontendLoadBalancer  -lpthread 

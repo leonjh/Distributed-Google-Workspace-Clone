@@ -1,0 +1,7 @@
+test_files 1
+root:content 0 20 ["trash", "recents"]
+test_mbox 2
+sent_ids 0 0 
+received_ids 0 0 
+test_acc 1
+password 0 4 pass

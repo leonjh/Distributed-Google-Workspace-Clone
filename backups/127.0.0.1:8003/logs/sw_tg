@@ -1,0 +1,3 @@
+79 15 PUT test_files recents:content S 40 ["1ee474c5-3e2a-e783-29e0-1567622c14e5"]
+94 16 PUT test_files root:content S 58 ["trash","recents","db943493-78af-39a1-7fa0-439a7480362f"]
+77 17 PUT test_files trash:content S 40 ["f90bab83-45e6-f8c2-63ae-114c42e55d8e"]
