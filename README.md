@@ -8,7 +8,7 @@
 2. mkdir config
 3. cd config
 4. touch backend\
-4.5 the file should be populated with the backend ip's, one per line with the associated ports
+4.5 the 'backend' file should be populated with the backend ip's, one per line with the associated ports
   for example the file in its entirity should look like the following 5 lines, depending on the number of tablet servers
   127.0.0.1:8001
   127.0.0.1:8002
@@ -16,7 +16,7 @@
   127.0.0.1:8004
   127.0.0.1:8005
 5. touch frontend\
-  5.5 this file should look exactly like the backend config file, however with different points, specifically in the 3000s.
+5.5 this file should look exactly like the backend config file, however with different points, specifically in the 3000s.
   For example, the file in its entirity should look like the following 2 lines, depending on the number of HTTP servers
   127.0.0.1:3001
   127.0.0.1:3002
